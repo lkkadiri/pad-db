@@ -16,7 +16,7 @@ gem 'activerecord', :require => "active_record"
 gem 'mysql'
 
 # Test requirements
-gem 'rspec', :group => "test"
+gem 'rspec'
 gem 'rack-test', :require => "rack/test", :group => "test"
 
 # Padrino Stable Gem
