@@ -26,18 +26,28 @@ ActiveRecord::Base.configurations[:development] = {
 
 }
 
-ActiveRecord::Base.configurations[:production] = {
-  :adapter   => 'mysql',
-  :encoding  => 'utf8',
-  :reconnect => true,
-  :database  => 'pad_db_production',
-  :pool      => 5,
-  :username  => 'root',
-  :password  => 'biemedia',
-  :host      => 'localhost',
-  :socket    => '/tmp/mysql.sock'
+postgres = URI.parse(ENV['DATABASE_URL'] || '')
 
+ActiveRecord::Base.configurations[:production] = {
+  :adapter  => 'postgresql',
+  :encoding => 'utf8',
+  :database => postgres.path[1..-1], 
+  :username => postgres.user,
+  :password => postgres.password,
+  :host     => postgres.host
 }
+# ActiveRecord::Base.configurations[:production] = {
+#   :adapter   => 'mysql',
+#   :encoding  => 'utf8',
+#   :reconnect => true,
+#   :database  => 'pad_db_production',
+#   :pool      => 5,
+#   :username  => 'root',
+#   :password  => 'biemedia',
+#   :host      => 'localhost',
+#   :socket    => '/tmp/mysql.sock'
+# 
+# }
 
 ActiveRecord::Base.configurations[:test] = {
   :adapter   => 'mysql',
