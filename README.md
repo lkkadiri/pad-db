@@ -12,5 +12,5 @@ Who Are You?
 I'm [Leela Krishna Kadiri][lkk].
 
 
-[homepage]:http://diamond-brite.s3-website-us-east-1.amazonaws.com/
+[homepage]:http://diamondbritepoolservice.com/
 [lkk]:https://github.com/lkkadiri
