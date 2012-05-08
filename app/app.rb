@@ -70,5 +70,11 @@ class PadDb < Padrino::Application
     get "/contact" do
       File.read(File.join('public/static', 'contact.html'))
     end
+    get "/services" do
+      File.read(File.join('public/static', 'services.html'))
+    end
+    get "/faq" do
+      File.read(File.join('public/static', 'faq.html'))
+    end
   
 end
