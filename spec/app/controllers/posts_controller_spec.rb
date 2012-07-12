@@ -9,3 +9,5 @@ describe "PostsController" do
     last_response.body.should == "Hello World"
   end
 end
+
+
