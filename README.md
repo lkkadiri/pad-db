@@ -26,38 +26,47 @@ Look at [Padrino][pad] for more documentaion on [Padrino][pad].
 
 Clone the pad-db Repo
 =======
-
+``` ruby
 git clone git@github.com:lkkadiri/pad-db.git
+````
 
 Get into the directory
 =======
 
+``` ruby
 cd pad-db/
+```
 
 Bundle Install
 ======
-
+``` ruby
 bundle install
+```
 
 Create, Migrate and seed the padrino database
 =====
 
+``` ruby
 padrino rake ar:create
 
 padrino rake ar:migrate
 
 padrino rake seed
+```
 
 Start Padrino
 ======
 
+``` ruby
 padrino start
-
+```
 Goto Site
 =====
 
-Point your browser to http://localhost:3000/
-
+Point your browser to 
+``` ruby
+http://localhost:3000/
+```
 
 Who Are You?
 ============
