@@ -23,7 +23,7 @@ Look at [RVM][rvm] for more details.
 
 rvm gem install padrino 
 
-Look at [Padrino][pad] for more documentaion on [Padrino][pad].
+Look at [Padrino][pad] for more documentaion on Padrino.
 
 ### Clone the pad-db Repo
 
