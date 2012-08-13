@@ -11,7 +11,9 @@ Demo at  [diamond brite poolservice][homepage].
 
 ### Install RVM
 
+```ruby
 curl -L https://get.rvm.io | bash -s stable --ruby
+```
 
 Look at [RVM][rvm] for more details.
 
