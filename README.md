@@ -39,7 +39,7 @@ Bundle Install
 
 bundle install
 
-Create, Migrate and seed the padrino the database
+Create, Migrate and seed the padrino database
 =====
 
 padrino rake ar:create
