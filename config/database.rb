@@ -20,7 +20,7 @@ ActiveRecord::Base.configurations[:development] = {
   :database  => 'pad_db_development',
   :pool      => 5,
   :username  => 'root',
-  :password  => 'biemedia',
+  :password  => 'localpass',
   :host      => 'localhost',
   :socket    => '/tmp/mysql.sock'
 
@@ -56,7 +56,7 @@ ActiveRecord::Base.configurations[:test] = {
   :database  => 'pad_db_test',
   :pool      => 5,
   :username  => 'root',
-  :password  => 'biemedia',
+  :password  => 'localpass',
   :host      => 'localhost',
   :socket    => '/tmp/mysql.sock'
 
