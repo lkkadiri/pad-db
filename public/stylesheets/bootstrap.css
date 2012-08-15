@@ -153,7 +153,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Economica',Arial,sans-serif;
   font-size: 21px;
   line-height: 18px;
   color: #333333;
@@ -417,8 +417,8 @@ a:hover {
 
 p {
   margin: 0 0 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family: 'Economica',Arial,sans-serif;
+  font-size: 18px;
   line-height: 18px;
 }
 
@@ -476,7 +476,7 @@ h2 small {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 28px;
   line-height: 27px;
 }
 
@@ -4935,7 +4935,7 @@ a.badge:hover {
 }
 
 .hero-unit p {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 200;
   line-height: 27px;
   color: inherit;
